@@ -21,7 +21,7 @@ public class AuthenticationController {
   @Autowired
   SiteUserRepository siteUserRepository;
 
-  // This is the mapping for the home route
+  // This is the mapping for the home route.
   @GetMapping("/")
   // This is the model for the home route
   public String getHome(){

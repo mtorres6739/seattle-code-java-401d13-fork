@@ -18,7 +18,7 @@ public class RecipeController {
   SiteUserRepository siteUserRepository;
   // This is the mapping for recipes with a login authentication form
   @GetMapping("/recipe")
-  // This is the model for the recipe
+  // This is the model for the recipe.
   public String getRecipe(HttpServletRequest request, Model m){
 
     // Get the session
