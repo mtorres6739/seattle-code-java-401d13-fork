@@ -55,7 +55,7 @@ public class StatesAndCapitals
         //    1B. Don't try to simulate a loop in other ways, like using if() and a counter variable.
         //    1C. Don't use the Java stream operations .forEach(), .forEachOrdered(), and peek(). (You can use them for debugging, but you can't submit them!)
         // 2. Don't cheese answers by submitting them directly. If an answer is a one-word String, or a boolean, don't just submit the string or the boolean. If you do, you will not get credit for that test.
-        // 3. Don't make intermediate data structures. These should all be "one-liners". Use only the variable provided.
+        // 3. Don't make intermediate data structures. These should all be "one-liners". Use only the variable provided..
 
         // Starter hints:
         // 1. Most of your answers will start with states.stream().
