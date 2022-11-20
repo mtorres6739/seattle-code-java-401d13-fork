@@ -13,11 +13,11 @@ public class Recipe {
   private String description;
 //  private String[] steps;
 
-// This is mapping all the recipes to the site user
+// This is mapping all the recipes to the site user.
   @ManyToOne
   SiteUser siteUser;
 
-  // This is the default constructor for the recipe
+  // This is the default constructor for the recipe.
   protected Recipe() {
   }
 

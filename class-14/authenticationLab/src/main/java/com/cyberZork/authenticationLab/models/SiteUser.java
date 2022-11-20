@@ -12,13 +12,13 @@ public class SiteUser {
   private Long id;
 // This is needed so the site user can map to all the different recipes
   @OneToMany(mappedBy = "siteUser")
-  // This is where all the recipes are going to live
+  // This is where all the recipes are going to live.
   List<Recipe> recipes;
 
   private String userName;
   private String password;
 
-  // This is the constructor for the site user
+  // This is the constructor for the site user.
   public SiteUser(String userName, String password){
     this.userName = userName;
     this.password = password;
